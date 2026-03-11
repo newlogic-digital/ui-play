@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "dev": "vite",
+    "preview": "vite preview",
+    "build": "vite build --mode development"
+  },
+  "dependencies": {
+    "@newlogic-digital/ui": "^4.3.0-next.1",
+    "@tailwindcss/vite": "^4.2.1"
+  },
+  "devDependencies": {
+    "@newlogic-digital/core": "^4.0.0-next.16",
+    "vite": "^8.0.0-beta.18"
+  }
+}

@@ -1,0 +1,15 @@
+@import "tailwindcss/theme.css" layer(theme);
+@import "winduum/tailwindcss/theme/config/index.css" layer(theme);
+@import "./theme/main.css" layer(theme);
+@import "winduum/src/base/reset.css" layer(base);
+@import "@newlogic-digital/ui/src/styles/base/defaults.css" layer(base);
+@import "@newlogic-digital/ui/src/styles/components/+.css";
+@import "@newlogic-digital/ui/src/styles/utils/+.css";
+@import "tailwindcss/utilities" layer(utilities) source("../");
+@import "winduum/tailwindcss/variants/dark.css";
+@import "@newlogic-digital/ui/src/styles/base/breakpoints.css";
+@import "@newlogic-digital/ui/src/styles/base/keyframes.css";
+@import "@newlogic-digital/ui/src/styles/base/transitions.css";
+@import "@newlogic-digital/ui/src/styles/base/variants.css";
+
+@source "../../node_modules/winduum/src";

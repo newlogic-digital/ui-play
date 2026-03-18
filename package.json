@@ -5,11 +5,11 @@
     "build": "vite build --mode development"
   },
   "dependencies": {
-    "@newlogic-digital/ui": "^4.3.0-next.2",
-    "@tailwindcss/vite": "^4.2.1"
+    "@newlogic-digital/ui": "^4.3.0-next.3",
+    "@tailwindcss/vite": "0.0.0-insiders.f302fce"
   },
   "devDependencies": {
-    "@newlogic-digital/core": "^4.0.0-rc.1",
+    "@newlogic-digital/core": "^4.0.0-rc.12",
     "vite": "^8.0.0"
   }
 }

@@ -8,6 +8,9 @@ export default defineConfig({
       css: {
         transformer: 'lightningcss',
       },
+      cssInline: {
+        paths: []
+      }
     }),
   ],
 })
